@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- 快適温度上限 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ComfyTemperatureMax"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 快適温度下限 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ComfyTemperatureMin"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 断熱（熱） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="Insulation_Heat"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 断熱（冷） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="Insulation_Cold"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+</Patch>

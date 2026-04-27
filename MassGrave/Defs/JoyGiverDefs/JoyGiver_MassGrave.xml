@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JoyGiverDef>
+    <defName>VisitMassGrave</defName>
+    <giverClass>MassGrave.JoyGiver_VisitMassGrave</giverClass>
+    <jobDef>VisitMassGrave</jobDef>
+    <joyKind>Social</joyKind>
+    <baseChance>1.0</baseChance>
+    <thingDefs>
+      <li>MassGrave_Large</li>
+    </thingDefs>
+  </JoyGiverDef>
+</Defs>
