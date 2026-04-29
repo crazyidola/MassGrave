@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-  <!-- 免疫獲得速度 -->
+  <!-- 免疫獲得速度（Core） -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/StatDef[defName="ImmunityGainSpeed"]/parts</xpath>
     <value>
@@ -9,17 +9,17 @@
     </value>
   </Operation>
 
-  <!-- 学習速度（Royalty） -->
+  <!-- 学習速度（Royalty） ※LearningFactor → LearningRateFactor -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="LearningFactor"]/parts</xpath>
+    <xpath>Defs/StatDef[defName="LearningRateFactor"]/parts</xpath>
     <value>
       <li Class="MassGrave.StatPart_MemorialBlessing" />
     </value>
   </Operation>
 
-  <!-- スキル減衰（Royalty） -->
+  <!-- スキル減衰（Royalty） ※SkillDecayFactor → SkillDecayRateFactor -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="SkillDecayFactor"]/parts</xpath>
+    <xpath>Defs/StatDef[defName="SkillDecayRateFactor"]/parts</xpath>
     <value>
       <li Class="MassGrave.StatPart_MemorialBlessing" />
     </value>
@@ -33,9 +33,9 @@
     </value>
   </Operation>
 
-  <!-- 近接クールダウン（Core） -->
+  <!-- 近接クールダウン（Core） ※MeleeCooldownFactor → MeleeCooldown -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="MeleeCooldownFactor"]/parts</xpath>
+    <xpath>Defs/StatDef[defName="MeleeCooldown"]/parts</xpath>
     <value>
       <li Class="MassGrave.StatPart_MemorialBlessing" />
     </value>
@@ -73,41 +73,25 @@
     </value>
   </Operation>
 
-  <!-- 断熱（熱） -->
+  <!-- 毒耐性（Biotech） ※ToxicResistanceFactor → ToxicResistance -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="Insulation_Heat"]/parts</xpath>
+    <xpath>Defs/StatDef[defName="ToxicResistance"]/parts</xpath>
     <value>
       <li Class="MassGrave.StatPart_MemorialBlessing" />
     </value>
   </Operation>
 
-  <!-- 断熱（冷） -->
+  <!-- 毒環境耐性（Biotech） ※ToxicEnvironmentResistanceFactor → ToxicEnvironmentResistance -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="Insulation_Cold"]/parts</xpath>
+    <xpath>Defs/StatDef[defName="ToxicEnvironmentResistance"]/parts</xpath>
     <value>
       <li Class="MassGrave.StatPart_MemorialBlessing" />
     </value>
   </Operation>
 
-  <!-- 毒耐性（Biotech） -->
+  <!-- 真空耐性（Anomaly） ※VacuumResistanceFactor → VacuumResistance -->
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="ToxicResistanceFactor"]/parts</xpath>
-    <value>
-      <li Class="MassGrave.StatPart_MemorialBlessing" />
-    </value>
-  </Operation>
-
-  <!-- 毒環境耐性（Biotech） -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="ToxicEnvironmentResistanceFactor"]/parts</xpath>
-    <value>
-      <li Class="MassGrave.StatPart_MemorialBlessing" />
-    </value>
-  </Operation>
-
-  <!-- 真空耐性（Biotech） -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StatDef[defName="VacuumResistanceFactor"]/parts</xpath>
+    <xpath>Defs/StatDef[defName="VacuumResistance"]/parts</xpath>
     <value>
       <li Class="MassGrave.StatPart_MemorialBlessing" />
     </value>
