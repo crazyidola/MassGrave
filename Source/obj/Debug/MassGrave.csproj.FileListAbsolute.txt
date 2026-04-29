@@ -1,0 +1,7 @@
+C:\Users\crow_\source\repos\MassGrave\MassGrave\obj\Debug\MassGrave.csproj.AssemblyReference.cache
+C:\Users\crow_\source\repos\MassGrave\MassGrave\obj\Debug\MassGrave.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MassGrave\Assemblies\MassGrave.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MassGrave\Assemblies\MassGrave.pdb
+C:\Users\crow_\source\repos\MassGrave\MassGrave\obj\Debug\MassGrave.dll
+C:\Users\crow_\source\repos\MassGrave\MassGrave\obj\Debug\MassGrave.pdb
+C:\Users\crow_\source\repos\MassGrave\MassGrave\obj\Debug\MassGrave.csproj.Up2Date
