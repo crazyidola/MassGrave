@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- 免疫獲得速度 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ImmunityGainSpeed"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 学習速度（Royalty） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="LearningFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- スキル減衰（Royalty） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="SkillDecayFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 照準時間（Core） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="AimingDelayFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 近接クールダウン（Core） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="MeleeCooldownFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 作業速度（Core） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 自然治癒速度（Core） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="InjuryHealingFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 快適温度（上限） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ComfyTemperatureMax"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 快適温度（下限） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ComfyTemperatureMin"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 断熱（熱） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="Insulation_Heat"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 断熱（冷） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="Insulation_Cold"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 毒耐性（Biotech） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ToxicResistanceFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 毒環境耐性（Biotech） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ToxicEnvironmentResistanceFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+  <!-- 真空耐性（Biotech） -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="VacuumResistanceFactor"]/parts</xpath>
+    <value>
+      <li Class="MassGrave.StatPart_MemorialBlessing" />
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>BuryMassGrave</defName>
+    <giverClass>MassGrave.WorkGiver_BuryMassGrave</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>90</priorityInType>
+    <verb>埋葬</verb>
+  </WorkGiverDef>
+</Defs>

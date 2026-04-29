@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>MassGrave</name>
+  <author>idola</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+  <!-- DLC より後にロードさせる（これが今回のエラーの原因だった） -->
+  <loadAfter>
+    <li>Royalty</li>
+    <li>Ideology</li>
+    <li>Biotech</li>
+    <li>Anomaly</li>
+  </loadAfter>
+
+  <!-- 依存ではないので modDependencies は不要（loadAfter だけで十分） -->
+
+  <description>
+    Adds a Mass Grave building and Memorial Blessing stat effects.
+  </description>
+</ModMetaData>

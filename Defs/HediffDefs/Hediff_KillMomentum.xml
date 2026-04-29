@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- MemorialBlessing -->
+  <HediffDef>
+    <defName>MemorialBlessing</defName>
+    <label>ancestral blessing</label>
+    <description>死者たちの加護が、この入植者を静かに守っている。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.9, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>0.1</initialSeverity>
+    <maxSeverity>2.0</maxSeverity>
+
+    <comps>
+      <li Class="MassGrave.HediffCompProperties_MemorialBlessing">
+        <compClass>MassGrave.HediffComp_MemorialBlessing</compClass>
+      </li>
+
+      <!-- 被ダメージ軽減（遠近両方） -->
+      <li Class="MassGrave.HediffCompProperties_DamageReduction" />
+    </comps>
+  </HediffDef>
+
+
+  <!-- KillMomentum -->
+  <HediffDef>
+    <defName>KillMomentum</defName>
+    <label>kill momentum</label>
+    <description>戦いの勢いがこの入植者を加速させている。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>0.01</initialSeverity>
+    <maxSeverity>6</maxSeverity>
+
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>36000</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+
+</Defs>
